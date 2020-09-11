@@ -1,0 +1,23 @@
+1. 设置全局git 账户
+	git config --global user.name 'some404'
+	git config --global user.email 'xxxx@163.com'
+
+2.查看git设置	
+	git config -l
+
+3.初始话本地仓库
+	git init
+	
+4. 查看本地仓库状态
+	git  status
+	
+5. 把需要提交的文件标识为待提交
+	git add  xxx/(*)
+	
+6.提交代码到缓冲区	
+	git commit -m 'xxxx' 
+
+7.把缓冲区文件推送提交到指定分支
+	git push -u origin  master 
+	
+ps：git登陆账户为git的 username 账户 或者邮箱
